@@ -1,0 +1,29 @@
+{
+"inbounds": [
+{
+"port": 8080,
+"protocol": "Trojan",
+"settings": {
+"clients": [
+{
+"password": "e49d1c4e-ef73-4b41-a3cf-b7143b7fbe82",
+"level": 0
+}
+],
+"decryption": "none"
+},
+"streamSettings": {
+"network": "ws",
+"wsSettings": {
+"path": "/"
+}
+}
+}
+],
+"outbounds": [
+{
+"protocol": "freedom",
+"settings": {}
+}
+]
+}
